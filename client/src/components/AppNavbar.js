@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {
     Collapse,
     Navbar,
@@ -10,14 +10,10 @@ import {
     Container
 } from 'reactstrap'
 
-class AppNavbar extends Component {
-    constructor(props){
-        super(props)
-
-        this.state = {
-            isOpen: false
-        }
-    }
+class AppNavbar extends React.Component {
+    state = {
+        isOpen: false
+    } 
 
     toggle = () => {
         this.setState({
