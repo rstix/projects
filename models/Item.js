@@ -2,6 +2,7 @@ const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema
 
+// schema that will be saved in the db
 const ItemSchema = new Schema({
     name: {
         type: String,
