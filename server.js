@@ -6,6 +6,7 @@ const items = require('./routes/api/items')
 
 const app = express()
 
+// BodyParser Middleware
 app.use(bodyParser.json())
 
 const db = require('./config/keys').mongoURI
