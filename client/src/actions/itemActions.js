@@ -1,14 +1,14 @@
-import { GET_ITEMS , DELETE_ITEM, ADD_ITEM } from './types'
+import { GET_ITEMS, DELETE_ITEM, ADD_ITEM } from './types';
 
 export const getItems = () => {
-  return{
+  return {
     type: GET_ITEMS
-  }
-}
+  };
+};
 
 export const deleteItem = id => {
-  return{
+  return {
     type: DELETE_ITEM,
     payload: id
-  }
-}
+  };
+};
